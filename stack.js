@@ -1,5 +1,5 @@
 "use strict";
-const prompt=require("prompt-sync")();
+// const prompt=require("prompt-sync")();
 class Stack {
     constructor() {
         this.items = [];
@@ -18,6 +18,7 @@ class Stack {
         }
     }
 }
+
 let stack = new Stack();
 console.log("displaying stack");
 stack.add(1);
@@ -28,7 +29,6 @@ stack.add(5);
 for(let i=0; i<this.items.length; i++){
     stack.pop();
 }
-
 
 stack.display();
 
